@@ -20,11 +20,13 @@ const notificationRouter = require("./routes/notification");
 const app = express();
 const port = process.env.PORT || 3000;
 
+// TODO: Change origin to environmental variable.
 app.use(
   cors({
-    origin: "https://willowy-babka-51ef45.netlify.app\n",
+    origin: "*",
   })
 );
+app.enable('trust proxy');
 
 app.use(express.json());
 app.use(helmet());
