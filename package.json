@@ -1,0 +1,34 @@
+{
+  "name": "habitime-rest-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node api/app.js",
+    "dev": "nodemon api/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "firebase": "^9.8.2",
+    "firebase-admin": "^10.2.0",
+    "helmet": "^5.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^=4.17.21",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.3",
+    "morgan": "~1.9.1",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.16",
+    "validator": "^13.7.0",
+    "web-push": "^3.5.0",
+    "constantinople": ">3.1.1",
+    "uglify-js": ">=2.6.0",
+    "clean-css": ">=4.1.11"
+  }
+}
