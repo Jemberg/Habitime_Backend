@@ -22,7 +22,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "https://www.habitime.com/\n",
+    origin: "https://willowy-babka-51ef45.netlify.app\n",
   })
 );
 
