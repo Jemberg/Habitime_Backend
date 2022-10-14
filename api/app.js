@@ -22,7 +22,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "http://api.habitime.com\n",
+    origin: "https://www.habitime.com/\n",
   })
 );
 
