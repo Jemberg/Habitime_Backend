@@ -6,9 +6,9 @@ const admin = require("firebase-admin");
 // Firebase initialization.
 admin.initializeApp({
   credential: admin.credential.cert({
-    "project_id": process.env.PROJECT_ID,
-    "private_key": process.env.FIREBASE_PRIVATE_KEY ? process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n') : undefined,
-    "client_email": process.env.CLIENT_EMAIL
+    project_id: process.env.PROJECT_ID,
+    private_key: process.env.PRIVATE_KEY ? process.env.PRIVATE_KEY.replace(/\\n/g, '\n') : undefined,
+    client_email: process.env.CLIENT_EMAIL
   }),
   databaseURL: `${process.env.FIREBASE_DB_URL}`,
 });
