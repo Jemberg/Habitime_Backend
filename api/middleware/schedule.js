@@ -3,11 +3,13 @@ const webpush = require("web-push");
 const scheduleLib = require("node-schedule");
 const admin = require("firebase-admin");
 
-const serviceAccount = require("../../serviceAccountKey.json");
-
 // Firebase initialization.
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+  credential: admin.credential.cert({
+    "project_id": `${process.env.PROJECT_ID}`,
+    "private_key": `${process.env.PRIVATE_KEY}`,
+    "client_email": `${process.env.CLIENT_EMAIL}`
+  }),
   databaseURL: `${process.env.FIREBASE_DB_URL}`,
 });
 
