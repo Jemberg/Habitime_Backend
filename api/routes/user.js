@@ -5,6 +5,10 @@ const auth = require("../middleware/auth");
 
 const router = new express.Router();
 
+router.get("/", async (req, res) => {
+  res.send({ body: "Hi! Welcome to the Habitime API :)" });
+});
+
 // Get user data.
 router.get("/users/me", auth, async (req, res) => {
   res.send({ user: req.user });
