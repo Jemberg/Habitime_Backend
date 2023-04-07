@@ -28,7 +28,7 @@
     "validator": "^13.7.0",
     "web-push": "^3.5.0",
     "constantinople": ">3.1.1",
-    "uglify-js": ">=2.6.0",
+    "uglify-js": ">=3.17.4",
     "clean-css": ">=4.1.11"
   }
 }
