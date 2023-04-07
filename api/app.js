@@ -52,3 +52,5 @@ app.listen(port, () => {
     schedule.sendMessage();
   });
 });
+
+module.exports = app;
