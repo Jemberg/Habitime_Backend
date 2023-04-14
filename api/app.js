@@ -23,7 +23,7 @@ const port = process.env.PORT || 3000;
 // TODO: Change origin to environmental variable.
 app.use(
   cors({
-    origin: "*",
+    origin: "*"
   })
 );
 app.enable('trust proxy');
@@ -48,9 +48,9 @@ app.listen(port, () => {
     User.resetStats();
   });
   // Every sunday at 12:00 sends out a notification to all subscribed users.
-  scheduleLib.scheduleJob("00 12 * * SUN", () => {
-    schedule.sendMessage();
-  });
+  // scheduleLib.scheduleJob("00 12 * * SUN", () => {
+  //   schedule.sendMessage();
+  // });
 });
 
 module.exports = app;
