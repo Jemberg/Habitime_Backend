@@ -1,6 +1,6 @@
 # Habitime
 
-Progressive Web Application made for task management.
+Progressive Web Application made for task management created as a part of a Bachelor Thesis project at Ventspils University of Applied Sciences.
 
 ## Features
 
@@ -36,7 +36,9 @@ IMPORTANT: For the back-end to function properly, a MongoDB instance has to be c
 
 ## Run
 
+NOTE: Be warned, this application is deprecated by now and needs heavy updates to work properly and safely. For further details on maintenance or other questions please reach out to me.
 To start the back-end, simply type ```npm run dev```, the back-end has two different options for starting: ```npm start``` will start the application in development mode, but to have push notifications work, the front-end has to be built via ```npm run build``` and afterwards ```serve -s build```. 
+
 
 ## Licence
 
