@@ -1,3 +1,5 @@
+Note to anyone landing on this repository: This is representative of my programming skills during my Bachelor's degree and the project is not actively maintaned anymore since then, if you wish to maintain it or update it, please submit a pull request.
+
 # Habitime
 
 Progressive Web Application made for task management created as a part of a Bachelor Thesis project at Ventspils University of Applied Sciences.
