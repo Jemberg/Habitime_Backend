@@ -1,4 +1,4 @@
-Note to anyone landing on this repository: This is representative of my programming skills during my Bachelor's degree and the project is not actively maintaned anymore since then, if you wish to maintain it or update it, please submit a pull request.
+Note to anyone landing on this repository: The project is not actively maintaned anymore since I got my degree with this being my thesis project, if you wish to maintain it or update it, please submit a pull request.
 
 # Habitime
 
